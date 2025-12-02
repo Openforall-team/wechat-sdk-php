@@ -1,0 +1,40 @@
+{
+  "name": "openforall/wechat-sdk",
+  "description": "企业级微信API开发工具包 - PHP版 | Enterprise WeChat API Development Kit for PHP",
+  "keywords": [
+    "wechat",
+    "wechat-sdk",
+    "wechat-pay",
+    "wechat-api",
+    "payment",
+    "oauth",
+    "alipay",
+    "sms",
+    "openforall"
+  ],
+  "homepage": "https://openforall.liebianjun.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "OpenForAll Team",
+      "email": "support@openforall.com",
+      "homepage": "https://openforall.liebianjun.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpenForAll\\": "src/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/Openforall-team/wechat-sdk-php/issues",
+    "source": "https://github.com/Openforall-team/wechat-sdk-php",
+    "docs": "https://openforall.liebianjun.com/docs"
+  }
+}
